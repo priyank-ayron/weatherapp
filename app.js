@@ -56,6 +56,8 @@ function showWeatherReport(weather) {
     document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
   } else if (weatherType.textContent == "Haze") {
     document.body.style.backgroundImage = "url('images/haze.jpg')";
+  } else if (weatherType.textContent == "Mist") {
+    document.body.style.backgroundImage = "url('images/mist.jpg')";
   }
 }
 
